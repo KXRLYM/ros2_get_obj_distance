@@ -1,0 +1,78 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_get_obj_distance[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_get_obj_distance.dir/src/ros2_get_obj_distance.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:7[m[K:
+[01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:[m[K In static member function ‘[01m[Kstatic void GetDistanceNode::imageCallback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:73:31:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’ without object
+   73 |         RCLCPP_INFO([01;31m[Kget_logger()[m[K, "Image Received. Depth at pixel (10, 30): %f", depth);
+      |                     [01;31m[K~~~~~~~~~~^~[m[K
+[01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:73:31:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’ without object
+[01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:73:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   73 |         [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Image Received. Depth at pixel (10, 30): %f", depth);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:73:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   73 |         [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Image Received. Depth at pixel (10, 30): %f", depth);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:73:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   73 |         [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Image Received. Depth at pixel (10, 30): %f", depth);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:73:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   73 |         [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Image Received. Depth at pixel (10, 30): %f", depth);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:73:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   73 |         [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Image Received. Depth at pixel (10, 30): %f", depth);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:7[m[K:
+[01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:73:31:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’ without object
+   73 |         RCLCPP_INFO([01;31m[Kget_logger()[m[K, "Image Received. Depth at pixel (10, 30): %f", depth);
+      |                     [01;31m[K~~~~~~~~~~^~[m[K
+[01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:73:31:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’ without object
+   73 |         RCLCPP_INFO([01;31m[Kget_logger()[m[K, "Image Received. Depth at pixel (10, 30): %f", depth);
+      |                     [01;31m[K~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/unordered_map:40[m[K,
+                 from [01m[K/usr/include/c++/11/functional:61[m[K,
+                 from [01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:2[m[K:
+/usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = image_transport::ImageTransport; _Args = {GetDistanceNode*}; _Tp = image_transport::ImageTransport][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = image_transport::ImageTransport; _Args = {GetDistanceNode*}; _Tp = image_transport::ImageTransport; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<image_transport::ImageTransport>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {GetDistanceNode*}; _Tp = image_transport::ImageTransport; _Alloc = std::allocator<image_transport::ImageTransport>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = image_transport::ImageTransport; _Alloc = std::allocator<image_transport::ImageTransport>; _Args = {GetDistanceNode*}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<image_transport::ImageTransport>; _Args = {GetDistanceNode*}; _Tp = image_transport::ImageTransport; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<image_transport::ImageTransport>; _Args = {GetDistanceNode*}; _Tp = image_transport::ImageTransport][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = image_transport::ImageTransport; _Alloc = std::allocator<image_transport::ImageTransport>; _Args = {GetDistanceNode*}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = image_transport::ImageTransport; _Args = {GetDistanceNode*}][m[K’
+[01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:62:77:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimage_transport::ImageTransport::ImageTransport(GetDistanceNode*)[m[K’
+  162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:111:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::ImageTransport::ImageTransport(rclcpp::Node::SharedPtr)[m[K’
+  111 |   explicit [01;36m[KImageTransport[m[K(rclcpp::Node::SharedPtr node);
+      |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:111:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KGetDistanceNode*[m[K’ to ‘[01m[Krclcpp::Node::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’}
+  111 |   explicit ImageTransport([01;36m[Krclcpp::Node::SharedPtr node[m[K);
+      |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/ros2_get_obj_distance.dir/build.make:76: CMakeFiles/ros2_get_obj_distance.dir/src/ros2_get_obj_distance.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_get_obj_distance.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

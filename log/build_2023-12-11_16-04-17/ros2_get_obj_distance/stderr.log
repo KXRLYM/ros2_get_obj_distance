@@ -1,0 +1,17 @@
+[01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:28:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker[m[K’ is not a member of ‘[01m[Kvisualization_msgs::msg[m[K’; did you mean ‘[01m[KMarker[m[K’?
+   28 |     rclcpp::Publisher<visualization_msgs::msg::[01;31m[Kmarker[m[K>::SharedPtr marker_pub_;
+      |                                                [01;31m[K^~~~~~[m[K
+      |                                                [32m[KMarker[m[K
+[01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:28:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   28 |     rclcpp::Publisher<visualization_msgs::msg::marker[01;31m[K>[m[K::SharedPtr marker_pub_;
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:28:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   28 |     rclcpp::Publisher<visualization_msgs::msg::marker>::[01;31m[KSharedPtr[m[K marker_pub_;
+      |                                                         [01;31m[K^~~~~~~~~[m[K
+      |                                                                  [32m[K;[m[K
+[01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:28:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ does not name a type
+   28 |     rclcpp::Publisher<visualization_msgs::msg::marker>::SharedPtr [01;31m[Kmarker_pub_[m[K;
+      |                                                                   [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ros2_get_obj_distance.dir/build.make:76: CMakeFiles/ros2_get_obj_distance.dir/src/ros2_get_obj_distance.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_get_obj_distance.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

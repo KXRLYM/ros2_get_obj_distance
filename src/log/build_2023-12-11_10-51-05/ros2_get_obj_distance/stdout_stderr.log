@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_get_obj_distance[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_get_obj_distance.dir/src/ros2_get_obj_distance.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ros2_get_obj_distance[0m
+[100%] Built target ros2_get_obj_distance
+-- Install configuration: ""
+-- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/lib/ros2_get_obj_distance/ros2_get_obj_distance
+-- Set runtime path of "/home/nam017/ws_dist/src/install/ros2_get_obj_distance/lib/ros2_get_obj_distance/ros2_get_obj_distance" to ""
+-- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ament_index/resource_index/package_run_dependencies/ros2_get_obj_distance
+-- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ament_index/resource_index/parent_prefix_path/ros2_get_obj_distance
+-- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/environment/ament_prefix_path.sh
+-- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/environment/ament_prefix_path.dsv
+-- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/environment/path.sh
+-- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/environment/path.dsv
+-- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/local_setup.bash
+-- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/local_setup.sh
+-- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/local_setup.zsh
+-- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/local_setup.dsv
+-- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/package.dsv
+-- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ament_index/resource_index/packages/ros2_get_obj_distance
+-- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/cmake/ros2_get_obj_distanceConfig.cmake
+-- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/cmake/ros2_get_obj_distanceConfig-version.cmake
+-- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/package.xml

@@ -1,0 +1,24 @@
+[0.093s] Invoking command in '/home/nam017/ws_dist/build/ros2_get_obj_distance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nam017/ws_dist/build/ros2_get_obj_distance -- -j16 -l16
+[0.221s] [35m[1mConsolidate compiler generated dependencies of target ros2_get_obj_distance[0m
+[0.266s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_get_obj_distance.dir/src/ros2_get_obj_distance.cpp.o[0m
+[2.395s] [01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:31:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs[m[K’ was not declared in this scope
+[2.395s]    31 |     rclcpp::Publisher<[01;31m[Kvisualization_msgs[m[K::msg::Marker>::SharedPtr marker_pub_;
+[2.395s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.395s] [01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:31:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.396s]    31 |     rclcpp::Publisher<visualization_msgs::msg::Marker[01;31m[K>[m[K::SharedPtr marker_pub_;
+[2.396s]       |                                                      [01;31m[K^[m[K
+[2.396s] [01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:31:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.396s]    31 |     rclcpp::Publisher<visualization_msgs::msg::Marker>::[01;31m[KSharedPtr[m[K marker_pub_;
+[2.396s]       |                                                         [01;31m[K^~~~~~~~~[m[K
+[2.396s]       |                                                                  [32m[K;[m[K
+[2.397s] [01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:31:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ does not name a type
+[2.397s]    31 |     rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr [01;31m[Kmarker_pub_[m[K;
+[2.397s]       |                                                                   [01;31m[K^~~~~~~~~~~[m[K
+[2.402s] [01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:[m[K In constructor ‘[01m[KDepthPublisherNode::DepthPublisherNode()[m[K’:
+[2.402s] [01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:20:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[Kimage_pub_[m[K’
+[2.402s]    20 |     [01;31m[Kimage_pub_[m[K(image_transport.advertise("/marked_images/image_raw", 2))
+[2.402s]       |     [01;31m[K^~~~~~~~~~[m[K
+[2.809s] gmake[2]: *** [CMakeFiles/ros2_get_obj_distance.dir/build.make:76: CMakeFiles/ros2_get_obj_distance.dir/src/ros2_get_obj_distance.cpp.o] Error 1
+[2.810s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_get_obj_distance.dir/all] Error 2
+[2.810s] gmake: *** [Makefile:146: all] Error 2
+[2.816s] Invoked command in '/home/nam017/ws_dist/build/ros2_get_obj_distance' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nam017/ws_dist/build/ros2_get_obj_distance -- -j16 -l16

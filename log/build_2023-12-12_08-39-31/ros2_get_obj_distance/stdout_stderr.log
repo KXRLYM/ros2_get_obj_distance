@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_get_obj_distance[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_get_obj_distance.dir/src/ros2_get_obj_distance.cpp.o[0m
+[01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:[m[K In constructor ‘[01m[KDepthPublisherNode::DepthPublisherNode()[m[K’:
+[01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:20:31:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+   20 |     image_pub_(image_transport[01;31m[K.[m[Kadvertise("/marked_images/image_raw", 2))
+      |                               [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/ros2_get_obj_distance.dir/build.make:76: CMakeFiles/ros2_get_obj_distance.dir/src/ros2_get_obj_distance.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_get_obj_distance.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

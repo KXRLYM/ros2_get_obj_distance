@@ -1,0 +1,4 @@
+Invoking command in '/home/nam017/ws_dist/src/build/ros2_get_obj_distance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nam017/ws_dist/src/build/ros2_get_obj_distance -- -j16 -l16
+Invoked command in '/home/nam017/ws_dist/src/build/ros2_get_obj_distance' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nam017/ws_dist/src/build/ros2_get_obj_distance -- -j16 -l16
+Invoking command in '/home/nam017/ws_dist/src/build/ros2_get_obj_distance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nam017/ws_dist/src/build/ros2_get_obj_distance
+Invoked command in '/home/nam017/ws_dist/src/build/ros2_get_obj_distance' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nam017/ws_dist/src/build/ros2_get_obj_distance

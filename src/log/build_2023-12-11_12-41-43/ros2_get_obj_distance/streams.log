@@ -1,0 +1,11 @@
+[0.095s] Invoking command in '/home/nam017/ws_dist/src/build/ros2_get_obj_distance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nam017/ws_dist/src/build/ros2_get_obj_distance -- -j16 -l16
+[0.177s] [35m[1mConsolidate compiler generated dependencies of target ros2_get_obj_distance[0m
+[0.225s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_get_obj_distance.dir/src/ros2_get_obj_distance.cpp.o[0m
+[0.351s] [01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kvisualization_msgs/msg/marker.hpp: No such file or directory
+[0.351s]     5 | #include [01;31m[K<visualization_msgs/msg/marker.hpp>[m[K
+[0.351s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.351s] compilation terminated.
+[0.353s] gmake[2]: *** [CMakeFiles/ros2_get_obj_distance.dir/build.make:76: CMakeFiles/ros2_get_obj_distance.dir/src/ros2_get_obj_distance.cpp.o] Error 1
+[0.354s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_get_obj_distance.dir/all] Error 2
+[0.354s] gmake: *** [Makefile:146: all] Error 2
+[0.358s] Invoked command in '/home/nam017/ws_dist/src/build/ros2_get_obj_distance' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nam017/ws_dist/src/build/ros2_get_obj_distance -- -j16 -l16

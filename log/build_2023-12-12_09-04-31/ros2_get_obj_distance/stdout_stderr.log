@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_get_obj_distance[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_get_obj_distance.dir/src/ros2_get_obj_distance.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ros2_get_obj_distance[0m
+/usr/bin/ld: CMakeFiles/ros2_get_obj_distance.dir/src/ros2_get_obj_distance.cpp.o: undefined reference to symbol '_ZN3fmt2v87vformatB5cxx11ENS0_17basic_string_viewIcEENS0_17basic_format_argsINS0_20basic_format_contextINS0_8appenderEcEEEE'
+/usr/bin/ld: /lib/x86_64-linux-gnu/libfmt.so.8: error adding symbols: DSO missing from command line
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/ros2_get_obj_distance.dir/build.make:189: ros2_get_obj_distance] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_get_obj_distance.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

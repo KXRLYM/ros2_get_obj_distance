@@ -1,0 +1,26 @@
+[0.129s] Invoking command in '/home/nam017/ws_dist/src/build/ros2_get_obj_distance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nam017/ws_yolov8/install/yolov8_ros:/opt/ros/humble /usr/bin/cmake --build /home/nam017/ws_dist/src/build/ros2_get_obj_distance -- -j16 -l16
+[0.243s] [35m[1mConsolidate compiler generated dependencies of target ros2_get_obj_distance[0m
+[0.277s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_get_obj_distance.dir/src/ros2_get_obj_distance.cpp.o[0m
+[3.097s] [100%] [32m[1mLinking CXX executable ros2_get_obj_distance[0m
+[3.228s] [100%] Built target ros2_get_obj_distance
+[3.261s] Invoked command in '/home/nam017/ws_dist/src/build/ros2_get_obj_distance' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nam017/ws_yolov8/install/yolov8_ros:/opt/ros/humble /usr/bin/cmake --build /home/nam017/ws_dist/src/build/ros2_get_obj_distance -- -j16 -l16
+[3.393s] Invoking command in '/home/nam017/ws_dist/src/build/ros2_get_obj_distance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nam017/ws_yolov8/install/yolov8_ros:/opt/ros/humble /usr/bin/cmake --install /home/nam017/ws_dist/src/build/ros2_get_obj_distance
+[3.420s] -- Install configuration: ""
+[3.421s] -- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/lib/ros2_get_obj_distance/ros2_get_obj_distance
+[3.423s] -- Set runtime path of "/home/nam017/ws_dist/src/install/ros2_get_obj_distance/lib/ros2_get_obj_distance/ros2_get_obj_distance" to ""
+[3.423s] -- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ament_index/resource_index/package_run_dependencies/ros2_get_obj_distance
+[3.424s] -- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ament_index/resource_index/parent_prefix_path/ros2_get_obj_distance
+[3.424s] -- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/environment/ament_prefix_path.sh
+[3.425s] -- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/environment/ament_prefix_path.dsv
+[3.425s] -- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/environment/path.sh
+[3.426s] -- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/environment/path.dsv
+[3.426s] -- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/local_setup.bash
+[3.426s] -- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/local_setup.sh
+[3.427s] -- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/local_setup.zsh
+[3.427s] -- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/local_setup.dsv
+[3.428s] -- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/package.dsv
+[3.429s] -- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ament_index/resource_index/packages/ros2_get_obj_distance
+[3.429s] -- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/cmake/ros2_get_obj_distanceConfig.cmake
+[3.430s] -- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/cmake/ros2_get_obj_distanceConfig-version.cmake
+[3.430s] -- Installing: /home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/package.xml
+[3.435s] Invoked command in '/home/nam017/ws_dist/src/build/ros2_get_obj_distance' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nam017/ws_yolov8/install/yolov8_ros:/opt/ros/humble /usr/bin/cmake --install /home/nam017/ws_dist/src/build/ros2_get_obj_distance

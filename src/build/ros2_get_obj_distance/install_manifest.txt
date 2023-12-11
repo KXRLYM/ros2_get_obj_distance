@@ -1,0 +1,16 @@
+/home/nam017/ws_dist/src/install/ros2_get_obj_distance/lib/ros2_get_obj_distance/ros2_get_obj_distance
+/home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ament_index/resource_index/package_run_dependencies/ros2_get_obj_distance
+/home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ament_index/resource_index/parent_prefix_path/ros2_get_obj_distance
+/home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/environment/ament_prefix_path.sh
+/home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/environment/ament_prefix_path.dsv
+/home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/environment/path.sh
+/home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/environment/path.dsv
+/home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/local_setup.bash
+/home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/local_setup.sh
+/home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/local_setup.zsh
+/home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/local_setup.dsv
+/home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/package.dsv
+/home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ament_index/resource_index/packages/ros2_get_obj_distance
+/home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/cmake/ros2_get_obj_distanceConfig.cmake
+/home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/cmake/ros2_get_obj_distanceConfig-version.cmake
+/home/nam017/ws_dist/src/install/ros2_get_obj_distance/share/ros2_get_obj_distance/package.xml

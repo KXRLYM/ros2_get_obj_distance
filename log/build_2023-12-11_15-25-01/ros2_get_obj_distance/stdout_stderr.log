@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_get_obj_distance[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_get_obj_distance.dir/src/ros2_get_obj_distance.cpp.o[0m
+[01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:65:54:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::Node::make_shared[m[K’ is not a type
+   65 |     image_transport::ImageTransport image_transport_([01;31m[Krclcpp[m[K::Node::make_shared(this));
+      |                                                      [01;31m[K^~~~~~[m[K
+[01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:65:80:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kthis[m[K’
+   65 | port::ImageTransport image_transport_(rclcpp::Node::make_shared[34m[K([m[K[01;31m[Kt[m[K[32m[Khis[m[K));
+      |                                                                [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                 [32m[K)[m[K
+[01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:65:80:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kthis[m[K’
+   65 | port::ImageTransport image_transport_[34m[K([m[Krclcpp::Node::make_shared([01;31m[Kt[m[K[32m[Khis[m[K));
+      |                                      [34m[K~[m[K                          [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                 [32m[K)[m[K
+[01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:65:79:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   65 | port::ImageTransport image_transport_(rclcpp::Node::make_shared[01;31m[K([m[Kthis));
+      |                                                                [01;31m[K^[m[K
+      |                                                                 [32m[K;[m[K
+[01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:65:80:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kthis[m[K’
+   65 | port::ImageTransport image_transport_(rclcpp::Node::make_shared([01;31m[Kthis[m[K));
+      |                                                                 [01;31m[K^~~~[m[K
+
+[01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:[m[K In constructor ‘[01m[KDepthPublisherNode::DepthPublisherNode()[m[K’:
+[01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:60:22:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kimage_transport::ImageTransport DepthPublisherNode::image_transport_(...)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   60 |         image_sub_ = [01;31m[Kimage_transport_[m[K.subscribe("/depth_to_rgb/image_raw", 10, std::bind(&DepthPublisherNode::imageCallback, this, std::placeholders::_1));
+      |                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                      [32m[K()[m[K
+gmake[2]: *** [CMakeFiles/ros2_get_obj_distance.dir/build.make:76: CMakeFiles/ros2_get_obj_distance.dir/src/ros2_get_obj_distance.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_get_obj_distance.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

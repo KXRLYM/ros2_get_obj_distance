@@ -1,0 +1,11 @@
+[0.091s] Invoking command in '/home/nam017/ws_dist/build/ros2_get_obj_distance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nam017/ws_dist/build/ros2_get_obj_distance -- -j16 -l16
+[0.221s] [35m[1mConsolidate compiler generated dependencies of target ros2_get_obj_distance[0m
+[0.260s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_get_obj_distance.dir/src/ros2_get_obj_distance.cpp.o[0m
+[2.446s] [01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:[m[K In constructor ‘[01m[KDepthPublisherNode::DepthPublisherNode()[m[K’:
+[2.446s] [01m[K/home/nam017/ws_dist/src/ros2_get_obj_distance/src/ros2_get_obj_distance.cpp:20:31:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+[2.446s]    20 |     image_pub_(image_transport[01;31m[K.[m[Kadvertise("/marked_images/image_raw", 2))
+[2.446s]       |                               [01;31m[K^[m[K
+[2.888s] gmake[2]: *** [CMakeFiles/ros2_get_obj_distance.dir/build.make:76: CMakeFiles/ros2_get_obj_distance.dir/src/ros2_get_obj_distance.cpp.o] Error 1
+[2.888s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_get_obj_distance.dir/all] Error 2
+[2.889s] gmake: *** [Makefile:146: all] Error 2
+[2.895s] Invoked command in '/home/nam017/ws_dist/build/ros2_get_obj_distance' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nam017/ws_dist/build/ros2_get_obj_distance -- -j16 -l16

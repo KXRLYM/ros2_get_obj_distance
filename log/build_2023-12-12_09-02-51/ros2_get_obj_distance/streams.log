@@ -1,0 +1,10 @@
+[0.090s] Invoking command in '/home/nam017/ws_dist/build/ros2_get_obj_distance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nam017/ws_dist/build/ros2_get_obj_distance -- -j16 -l16
+[0.255s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_get_obj_distance.dir/src/ros2_get_obj_distance.cpp.o[0m
+[3.034s] [100%] [32m[1mLinking CXX executable ros2_get_obj_distance[0m
+[3.245s] /usr/bin/ld: CMakeFiles/ros2_get_obj_distance.dir/src/ros2_get_obj_distance.cpp.o: undefined reference to symbol '_ZN3fmt2v87vformatB5cxx11ENS0_17basic_string_viewIcEENS0_17basic_format_argsINS0_20basic_format_contextINS0_8appenderEcEEEE'
+[3.246s] /usr/bin/ld: /lib/x86_64-linux-gnu/libfmt.so.8: error adding symbols: DSO missing from command line
+[3.249s] collect2: error: ld returned 1 exit status
+[3.252s] gmake[2]: *** [CMakeFiles/ros2_get_obj_distance.dir/build.make:189: ros2_get_obj_distance] Error 1
+[3.253s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_get_obj_distance.dir/all] Error 2
+[3.253s] gmake: *** [Makefile:146: all] Error 2
+[3.256s] Invoked command in '/home/nam017/ws_dist/build/ros2_get_obj_distance' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nam017/ws_dist/build/ros2_get_obj_distance -- -j16 -l16
