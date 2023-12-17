@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'ros2_point_cloud_distance = ros2_pcl_distance.ros2_point_cloud_distance:main'
+            'ros2_point_cloud_distance = ros2_pcl_distance.ros2_point_cloud_distance:main',
+            'ros2_point_cloud_only = ros2_pcl_distance.point_cloud_only:main'
         ],
     },
 )
