@@ -31,7 +31,7 @@ class PointCloudOnlyNode(Node):
             10
         )
 
-        ts = message_filters.ApproximateTimeSynchronizer([self.depth_cam_sub, self.cam_info_sub], 10, 0.5)
+        ts = message_filters.ApproximateTimeSynchronizer([self.depth_cam_sub, self.cam_info_sub], 10, 1)
         ts.registerCallback(self.cloudCallback)
 
         self.bridge = CvBridge()

@@ -2,7 +2,6 @@ import rclpy
 from rclpy.node import Node
 import ros2_numpy as rnp
 import numpy as np
-import random
 
 from sensor_msgs_py import point_cloud2
 from sensor_msgs.msg import PointCloud2, PointField, CameraInfo, Image
@@ -27,19 +26,28 @@ class PointCloudDistanceNode(Node):
             10
         )
 
-        ts = message_filters.ApproximateTimeSynchronizer([self.depth_cam_sub, self.cam_info_sub, self.mask_sub], 10, 0.5)
+        self.mask_pub = self.create_publisher(
+            PointCloud2,
+            '/mask_points',
+            10
+        )
+
+        self.target_pub = self.create_publisher(
+            PointCloud2,
+            '/target_points',
+            10
+        )
+
+        ts = message_filters.ApproximateTimeSynchronizer([self.depth_cam_sub, self.cam_info_sub, self.mask_sub], 10, 3)
         ts.registerCallback(self.cloudCallback)
 
         self.bridge = CvBridge()
 
-        self.field = PointField(name = 'x')
         self.skip = 8
-        self.fields = [
-            PointField(name = 'x', offset = 0, datatype = PointField.FLOAT32, count = 1),
-            PointField(name = 'y', offset = 4, datatype = PointField.FLOAT32, count = 1),
-            PointField(name = 'z', offset = 8, datatype = PointField.FLOAT32, count = 1),
-            PointField(name = 'rgb', offset = 12, datatype = PointField.UINT32, count = 1)
-        ]
+        self.fields =   [PointField('x', 0, PointField.FLOAT32, 1),
+                        PointField('y', 4, PointField.FLOAT32, 1),
+                        PointField('z', 8, PointField.FLOAT32, 1),
+                        PointField('rgb', 12, PointField.UINT32, 1)]
 
         
     def cloudCallback(self, image_msg, info_msg, mask_msg):
@@ -60,12 +68,16 @@ class PointCloudDistanceNode(Node):
                 point_cloud.append(self.depthToPointCloudPos(info_msg, x, y, depth, 0xFFFFFF))
                 point_cloud_2d.append([x,y])
 
+        
+        match_point_cloud = []
+        full_mask_points = []
+
         for detection in mask_msg.detections:
             if (len(detection.mask.data) > 0):
-                colour_code = random.randint(0, 0xFFFFFE)
                 self.get_logger().info("receving masks..")
                 mask_points = np.array([[int(ele.y), int(ele.x), 0] for ele in detection.mask.data])
-    
+                full_mask_points.extend(mask_points)
+                
                 # Generate a polygon by connecting the values in points
                 polygon = Polygon(mask_points[:, :2])
 
@@ -73,11 +85,19 @@ class PointCloudDistanceNode(Node):
                 points_inside_polygon = self.is_inside_poly(point_cloud_2d, polygon)
 
                 # Get the depth value and generate a coloured pointcloud - need to zip 2d and 3d then color ones that is true
-                for index, (flag, point3d) in enumerate(zip(points_inside_polygon, point_cloud)):
+                for index, flag, point3d in enumerate(zip(points_inside_polygon, point_cloud)):
                     if (flag):
-                        point3d[3] =  colour_code
+                        point3d[index][3] = 0x00FF00
+
+
+
+
+
         
-        # self.publishCloud(full_mask_points, image_msg, self.mask_pub)
+        self.publishCloud(full_mask_points, image_msg, self.mask_pub)
+        self.publishCloud(match_point_cloud, image_msg, self.target_pub)
+
+
         self.publishCloud(point_cloud, image_msg, self.point_pub)
 
     def is_inside_poly(self, points, polygon):
@@ -99,7 +119,7 @@ class PointCloudDistanceNode(Node):
     def publishCloud(self, points, img_msg, publisher):
         if len(points) > 0:
             header = img_msg.header
-            cloud = point_cloud2.create_cloud(header, self.fields, points)
+            cloud = point_cloud2.create_cloud(header, fields, points)
             publisher.publish(cloud)
             self.get_logger().info("Published matching points as PointCloud2")
 
